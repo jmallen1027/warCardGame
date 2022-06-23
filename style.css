@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+  }
+body{
+    background-color: green;
+}
+
+header{
+    position: relative;
+    height: 35vh;
+    border-bottom: 7px solid #eee;
+    text-align: center;
+    font-size: 30px;
+    font-weight:200;
+    background-color: tan;
+ 
+}
+
+h1{
+    margin-bottom: 3rem;
+}
+
+
+h1{
+    margin-bottom: 3rem;
+}
+
+
+main {
+    height: 65vh;
+    background-image: url('statue.png');
+    
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+
+    
+  }
+
+
+.war{
+    width: 300px;
+    height: 100px;
+    z-index:10;
+    border: 6px solid black;
+    border-radius: 30px;
+    font-size: 50px;
+    background-color: red;
+    visibility: hidden;
+}
+
+.shuffle{
+    width: 300px;
+    height: 100px;
+    z-index:10;
+    border: 6px solid black;
+    border-radius: 30px;
+    font-size: 50px;
+    background-color: pink;
+}
+
+h2{
+   
+    visibility: visible;
+    text-align: center;
+}
+
+
+
+.left{
+    
+    width: 52rem;
+    height: 50rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.right {
+    width: 52rem;
+    height: 50rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+  }
+.center{
+    width: 52rem;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    text-align: center;
+    font-size: 30px;
+    font-weight:200;
+    visibility: hidden;
+  }
+.player1{
+    border: 5px solid black;
+    border-radius: 30px;
+    width: 288px;
+    height: 400px;
+    
+    position: absolute;
+    background-image: url(iraq_back_of_card.png);
+
+
+    
+}
+
+.player2{
+    border: 5px solid black;
+    border-radius: 30px;
+    width: 288px;
+    height: 400px;
+    position: absolute;
+    
+    
+    background-image: url(iraq_back_of_card.png);
+    visibility: visible;
+
+    
+}
+
+.score-p1{
+
+    width: 200px;
+    height: 100px;
+    z-index:10;
+    border: 2px solid black;
+    border-radius: 60px;
+    font-size: 50px;
+    background-color: white;
+    text-align: center;
+    
+
+}
+
+.score-p2{
+
+    width: 200px;
+    height: 100px;
+    z-index:10;
+    border: 2px solid black;
+    border-radius: 60px;
+    font-size: 50px;
+    background-color: white;
+    text-align: center;
+  
+
+}
+
+
+
+
+
+
+
+
+
