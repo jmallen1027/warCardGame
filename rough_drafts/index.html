@@ -38,4 +38,15 @@
     </main>
 </body>
     <script type="module" src="./app.js"></script>
+    <script type="text/javascript">
+        const cards = document.querySelectorAll(".player2-hand");
+        console.log(cards);
+        console.log(cards.length);
+        console.log(cards[0])
+        console.log(cards[3])
+        cards.forEach((e) => {
+            e.style.visibility = 'visible';
+
+        });
+    </script>
 </html>

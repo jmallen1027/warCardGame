@@ -29,6 +29,7 @@ h1{
 
 
 main {
+    position: relative;
     height: 65vh;
     background-image: url('statue.png');
     
