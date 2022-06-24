@@ -1,14 +1,9 @@
-//const playerOne = document.querySelector('.player1')
-//const playerTwo = document.querySelector('.player2')
-//const warBtn = document.querySelector('.war')
-//const shuffleBtn = document.querySelector('.shuffle')
 const shuffleBtn = document.querySelector('#shuffle')
 const warBtn = document.querySelector('#war')
 const player1Score = document.querySelector('.score-p1')
 const player2Score = document.querySelector('.score-p2')
 const player1Styles = document.querySelectorAll('.player1-hand');
 const player2Styles = document.querySelectorAll('.player2-hand');
-//let style = getComputedStyle(playerOne)
 
 import { result, war, warCards, playerCardValue, playerSuite } from './game.js'
 import {deal, player1, player2} from './cards.js'
@@ -26,17 +21,11 @@ shuffleBtn.addEventListener('click', function(){
 
     console.log(player1.allCards)
     console.log(player2.allCards)
-    let test = []
-    for(var x = 0; x < 4; x++){
-        test[x] = player1.allCards[x]
-    }
-    console.log(test)
+
  })
 
 warBtn.addEventListener('click', function(){
 
-    
-    
     let playerOneCard = playerCardValue(player1.allCards[0]); //Sets the value of Player One's Card
     let playerTwoCard = playerCardValue(player2.allCards[0]); //Sets the value of Player Two's Card
     let playerOneSuite = playerSuite(player1.allCards[0]); //Sets Suite of Player 1's Card for Image. 
@@ -44,8 +33,6 @@ warBtn.addEventListener('click', function(){
 
     player1Styles[0].style.backgroundImage=`url(./cards/${playerOneSuite}/${playerOneCard}.png)`; //Sets the Image based on the Document Element of the Card. 
     player2Styles[0].style.backgroundImage=`url(./cards/${playerTwoSuite}/${playerTwoCard}.png)`;
-    console.log(`Player1 Element ${player1.allCards[0]}`)
-    console.log(`Player2 Element ${player2.allCards[0]}`)
 
     if(playerOneCard > playerTwoCard){
         console.log('Player 1 Wins')
@@ -72,14 +59,7 @@ warBtn.addEventListener('click', function(){
 
 
     }
-    console.log(player1.allCards)
-    console.log(player2.allCards)
-    console.log(`Player1s: ${playerOneCard} of ${playerOneSuite}`)
-    console.log(`Player2s: ${playerTwoCard} of ${playerTwoSuite}`)
-    /*draw(player1Cards, player2Cards)
-    
-    player1Score.textContent = p1Deck;
-    player2Score.textContent = p2Deck;*/
+
     
 })
 
