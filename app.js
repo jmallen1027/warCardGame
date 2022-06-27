@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { result, war, warCards, playerCardValue, playerSuite } from './game.js';
 import {deal, player1, player2} from './cards.js';
 
@@ -10,7 +9,7 @@ const player1Score = document.querySelector('#score-p1');
 const player2Score = document.querySelector('#score-p2');
 const player1Styles = document.querySelectorAll('.player1-hand');
 const player2Styles = document.querySelectorAll('.player2-hand');
-=======
+
 const shuffleBtn = document.querySelector('#shuffle')
 const warBtn = document.querySelector('#war')
 const player1Score = document.querySelector('.score-p1')
@@ -23,7 +22,7 @@ import {deal, player1, player2} from './cards.js'
 
 let p1Deck = player1.allCards.length
 let p2Deck = player2.allCards.length
->>>>>>> 22ac17dd0df3f79a44d8c2404fcf2f421159d5fe
+
 
 const visibleDocs = [warBtn, player1Deck, player2Deck];
 
@@ -86,10 +85,7 @@ warBtn.addEventListener('click', function(){
 
     }
 
-<<<<<<< HEAD
-=======
 
->>>>>>> 22ac17dd0df3f79a44d8c2404fcf2f421159d5fe
     
 })
 
