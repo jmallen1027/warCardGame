@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+  }
+body{
+    background-color: green;
+}
+
+.container{
+    position: relative;
+    height: 400px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    position: relative;
+    border: 5px solid black;
+    border-radius: 30px;
+    width: 198px;
+    height: 300px;
+    background-image: url(./iraq_back_of_card.png);
+    background-size: cover;
+    transition: transform 3s;
+
+}
+
+.no-mands-land{
+    height: 300px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    position: relative
+
+}
+
+#shuf{
+    background-image: url(./iraq_back_of_card.png);
+   
+}
+
+.player-deck{
+   
+    position: absolute;
+    
+}
+
+#player1{
+    position: relative;
+    right:550px;
+    top:750px
+
+}
+
+#player2{
+    position: absolute;
+    right:720px;
+    top:750px
+    
+}
