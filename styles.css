@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+  }
+body{
+    background-color: green;
+}
+
+.container{
+    position: relative;
+    height: 400px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    position: relative;
+    border: 5px solid black;
+    border-radius: 30px;
+    width: 198px;
+    height: 300px;
+    background-image: url(./iraq_back_of_card.png);
+    background-size: cover;
+}
+
+.no-mands-land{
+    height: 300px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+}
+
+.player1-hand,
+.player2-hand{
+    visibility: visible;
+    
+}
+#p2war,
+#p1-card4{
+    visibility: hidden;
+    background-image: url(./iraq_back_of_card.png);
+}
+#p1-deck{
+    left:200px;
+    visibility: hidden;
+}
+#p2-deck{
+    right:200px;
+    visibility: hidden;
+}
+#p1-card1{
+    left: 200px;
+    top:120px;
+    visibility: hidden;
+    background-image: url(./iraq_back_of_card.png);
+}
+#p1-card2{
+    left: 150px;
+    top:80px;
+    visibility: hidden;
+}
+#p1-card3{
+    background-image: url(./spades/14.png);
+    left: 100px;
+    top:40px;
+    visibility: hidden;
+}
+
+#p2-card2{
+    right: 100px;
+    bottom:40px;
+    visibility: hidden;
+}
+#p2-card3{
+    right: 150px;
+    bottom:80px;
+    visibility: hidden;
+}
+#p2-card4{
+    right: 200px;
+    bottom:120px;
+    visibility: hidden;
+}
+.score-board{
+    position: relative;
+    height: 100px;
+    justify-content: center;
+    display: flex;
+}
+
+.score{
+    height: 100px;
+    width: 100px;
+    font-weight: 3px;
+    font-size: large;
+    
+}
+
+
+
+
+
