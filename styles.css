@@ -23,6 +23,8 @@ body{
     height: 300px;
     background-image: url(./iraq_back_of_card.png);
     background-size: cover;
+    transition: transform 1s;
+
 }
 
 .no-mands-land{
