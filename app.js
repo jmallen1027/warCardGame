@@ -10,13 +10,7 @@ const player2Score = document.querySelector('#score-p2');
 const player1Styles = document.querySelectorAll('.player1-hand');
 const player2Styles = document.querySelectorAll('.player2-hand');
 
-const visibleDocs = [warBtn, player1Deck, player2Deck]
-
-
-
-let p1Deck = player1.allCards.length;
-let p2Deck = player2.allCards.length;
-
+const visibleDocs = [warBtn, player1Deck, player2Deck];
 
 shuffleBtn.addEventListener('click', function(){
     
@@ -38,6 +32,7 @@ warBtn.addEventListener('click', function(){
         player1Styles[q].style.visibility =`hidden`;
         player2Styles[q].style.visibility =`hidden`;
     }
+    
     document.querySelector('#player1-score').innerHTML = player1.allCards.length
     document.querySelector('#player2-score').innerHTML = player2.allCards.length
     

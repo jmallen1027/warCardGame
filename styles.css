@@ -33,7 +33,6 @@ body{
 
 }
 
-
 .player1-hand,
 .player2-hand{
     visibility: visible;
@@ -69,8 +68,6 @@ body{
     top:40px;
     visibility: hidden;
 }
-
-
 
 #p2-card2{
     right: 100px;
