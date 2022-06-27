@@ -67,7 +67,9 @@ body{
 
 }
 .parent {
+
    position: absolute;
+   
 
 }
 
@@ -75,8 +77,11 @@ body{
     border: 5px solid black;
     border-radius: 30px;
     margin: 0, auto;
+
     width: 288px;
     height: 400px;
+   
+    
 
     
 }
@@ -85,6 +90,8 @@ body{
     background-image: url(./cards/iraq_back_of_card.png);
     position: absolute;
     left: 900px;
+    visibility: visible;
+  
 }
 #p1-card2{
     background-image: url(./diamonds/14.png);
@@ -114,6 +121,8 @@ body{
     position: absolute;
     left: 1960px;
     top: 0px;
+    visibility: hidden;
+    
     
   
 }
